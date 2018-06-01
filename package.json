@@ -1,0 +1,23 @@
+{
+  "name": "restro",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "firebase": "^5.0.4",
+    "lodash": "^4.17.10",
+    "react": "^16.4.0",
+    "react-animated-burgers": "^1.1.0",
+    "react-burger-menu": "^2.4.4",
+    "react-dom": "^16.4.0",
+    "react-dropdown": "^1.5.0",
+    "react-hamburger-menu": "^1.1.0",
+    "react-scripts": "1.1.4",
+    "reactstrap": "^6.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

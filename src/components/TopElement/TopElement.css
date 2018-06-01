@@ -1,0 +1,27 @@
+header {
+    width: 90%;
+    min-height: 70px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    position: relative;
+    z-index: 10;
+}
+
+
+@media only screen and (max-width: 900px){
+    header {
+        padding: 20px 35px;
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 500px){
+    header {
+        padding: 20px 20px;
+        width: 85%;
+    }
+}

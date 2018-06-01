@@ -1,0 +1,25 @@
+.outro-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #76CC89;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.final-card {
+    min-height: 50px;
+    height: auto;
+    width: 250px;
+    padding: 25px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.final-card p {
+    margin-bottom: 10px;
+}

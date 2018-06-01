@@ -1,0 +1,24 @@
+.bottom-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #eee;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 800px){
+    .bottom-container{
+        height: 130px;
+        display: block;
+    }
+
+    .bottom-container div {
+        margin: 5px auto;
+    }
+}

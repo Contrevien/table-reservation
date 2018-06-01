@@ -1,0 +1,56 @@
+.dropdown-container {
+    position: relative;
+    height: auto;
+    width: auto;
+    
+}
+
+.dropdown-button {
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    border: 2px solid #ddd;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(127, 142, 156);
+}
+
+.dropdown-button:hover {
+    cursor: pointer;
+}
+
+.dropdown-button:active, .dropdown-button:focus {
+    outline: none;
+}
+
+.menu {
+    width: 140px;
+    height: auto;
+    background-color: #ddd;
+    padding: 5px 5px 0px 5px;
+    position: absolute;
+}
+
+.menu button {
+    width: 140px;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    height: 50px;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(127, 142, 156);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+

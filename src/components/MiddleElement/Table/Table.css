@@ -1,0 +1,91 @@
+.table{
+    position: relative;
+    width: 350px;
+    height: auto;
+}
+
+.things {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.tableTop{
+    width:335px;
+    height: 17px;
+    background-color: #967650;
+    border: 7px solid #51402c;
+    border-radius: 2px;
+}
+.leg{
+    position: absolute;
+    border-top: 27px solid #51402c;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    height: 0;
+    width: 7px;
+    margin-top: -6px;
+    z-index: 10;
+}
+.left{
+    transform: rotate(20deg);
+    left:11px;
+}
+.right{
+    transform: rotate(-20deg);
+    right:11px;
+}
+.shadow{
+    position: absolute;
+    width: 350px;
+    height: 20px;
+    background-color: #e9e8e6;
+    border-radius: 10px;
+    margin-top: 11px;
+    z-index: 9;
+}
+
+@media only screen and (max-width: 600px){
+    
+    .table{
+        width: 250px;
+    }
+    
+    .tableTop{
+        width: 236px;
+        height: 12px;
+        border: 5px solid #51402c;
+    }
+    .leg{
+        border-top: 21px solid #51402c;
+        border-left: 2px solid transparent;
+        border-right: 2px solid transparent;
+        width: 6px;
+        margin-top: -3px;
+    }
+    .left{
+        transform: rotate(20deg);
+        left:10px;
+    }
+    .right{
+        transform: rotate(-20deg);
+        right:10px;
+    }
+    .shadow{
+        width: 250px;
+        height: 17px;
+        margin-top: 8px;
+    }
+}
+
+
+.bowl {
+    height: 38px;
+}
+
+@media only screen and (max-width: 600px){
+    .bowl {
+        height: 28px;
+    }
+}
